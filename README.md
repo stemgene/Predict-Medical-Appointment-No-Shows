@@ -144,7 +144,8 @@ We performed variable importance analysis with logistic regression and random fo
   </tr>
 </table>
 
-![Figure4](https://github.com/stemgene/Predict-Medical-Appointment-No-Shows/blob/master/Images/Figure4.png)
+<div align="center"><img width="500" src="https://github.com/stemgene/Predict-Medical-Appointment-No-Shows/blob/master/Images/Figure4.png"/></div>
+
 ## 4. Discussion
 
 Random forest model had the best overall performance in our project. We ended up with a predicting model, a random forest model, with 0.83 precision, 0.73 recall, and 0.91 accuracy on our testing set, which exceeds almost all current published no-show prediction models. However, considering the real world application, though the accuracy is satisfying, the precision and recall are still not good enough. We tried all kinds of stuff to improve precision and recall, yet no big improvement was achieved. We identified two major limitations our models were suffering from that might account for the not-good-enough precision and recall. First, we only have 13 independent variables in our dataset. That means too few features were put into our models. Second, more than 50% patients only showed up once in our dataset thus we actually lacked more than half of the population's previous no-show information, which according to other studies is super important as a predictor. Due to the two major limitations in the dataset, we had difficulty in reaching better precision and recall. In the future studies, after including more features as well as having a longer time frame in the datasets, we believe a model with better precision and recall could be achieved which could assist designing interventions to address the appointment no-show issue to obtain an optimal allocation of scarce medical resources.

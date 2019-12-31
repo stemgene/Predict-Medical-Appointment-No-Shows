@@ -26,6 +26,7 @@ We draw a pie plot to show the proportion of number of visits per patient (Figur
 
 D) Location information: “Neighborhood”
 Patients’ geographical information was specified to the town level in our dataset. There are 81 towns in Victoria, a city in Brazil. We counted the number of patients within each town and the distribution is shown in Figure 2.
+
 ![Fiture2](https://github.com/stemgene/Predict-Medical-Appointment-No-Shows/blob/master/Images/figure2.png)
 
 Considering that some of these 81 towns only have a small number of patients, we used the unsupervised K_means to group towns into larger clusters. Finally, we grouped the 81 towns into 15 clusters, and almost all of them contain more than 5000 patients.
